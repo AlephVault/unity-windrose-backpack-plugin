@@ -1,0 +1,18 @@
+{
+    "name": "GameMeanMachine.Unity.WindRose.BackPack.Runtime",
+    "references": [
+        "GameMeanMachine.Unity.WindRose.Runtime",
+        "GameMeanMachine.Unity.BackPack.Runtime",
+        "AlephVault.Unity.Support.Runtime",
+        "AlephVault.Unity.Layout.Runtime",
+        "AlephVault.Unity.Support.Generic.Runtime"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}
