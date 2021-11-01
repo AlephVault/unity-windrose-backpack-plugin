@@ -71,7 +71,7 @@ namespace GameMeanMachine.Unity.WindRose.BackPack
                                 SimpleDropContainerRenderer container = dropContainers[position.x, position.y];
                                 if (container != null)
                                 {
-                                    Destroy(container);
+                                    Destroy(container.gameObject);
                                     dropContainers[position.x, position.y] = null;
                                 }
                             }
@@ -120,7 +120,7 @@ namespace GameMeanMachine.Unity.WindRose.BackPack
                                     container.RefreshWithRemoving(stackPosition);
                                     if (container.Empty())
                                     {
-                                        Destroy(container);
+                                        Destroy(container.gameObject);
                                         dropContainers[containerPosition.x, containerPosition.y] = null;
                                     }
                                 }
