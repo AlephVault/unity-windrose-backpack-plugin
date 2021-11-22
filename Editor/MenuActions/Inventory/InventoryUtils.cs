@@ -34,7 +34,6 @@ namespace GameMeanMachine.Unity.WindRose.BackPack
                     private void OnGUI()
                     {
                         minSize = new Vector2(360, 110);
-                        maxSize = minSize;
 
                         GUIStyle longLabelStyle = MenuActionUtils.GetSingleLabelStyle();
 
@@ -101,7 +100,6 @@ namespace GameMeanMachine.Unity.WindRose.BackPack
                     private void OnGUI()
                     {
                         minSize = new Vector2(590, 144);
-                        maxSize = new Vector2(590, 144);
                         GUIStyle longLabelStyle = MenuActionUtils.GetSingleLabelStyle();
                         GUIStyle indentedStyle = MenuActionUtils.GetIndentedStyle();
 
@@ -178,7 +176,6 @@ namespace GameMeanMachine.Unity.WindRose.BackPack
                     private void OnGUI()
                     {
                         minSize = new Vector2(564, 136);
-                        maxSize = new Vector2(564, 136);
                         GUIStyle longLabelStyle = MenuActionUtils.GetSingleLabelStyle();
                         GUIStyle captionLabelStyle = MenuActionUtils.GetCaptionLabelStyle();
 
