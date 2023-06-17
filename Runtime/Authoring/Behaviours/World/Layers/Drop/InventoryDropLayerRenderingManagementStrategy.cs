@@ -12,8 +12,8 @@ namespace GameMeanMachine.Unity.WindRose.BackPack
         namespace Behaviours
         {
             using Drops;
-            using AlephVault.Unity.Support.Generic.Vendor.IUnified.Authoring.Types;
-            using AlephVault.Unity.Support.Generic.Vendor.IUnified.Authoring.Types.IUnifiedContainerBase;
+            using AlephVault.Unity.Support.Generic.Authoring.Types;
+            using AlephVault.Unity.Support.Generic.Authoring.Types.InterfacedCore;
             using GameMeanMachine.Unity.BackPack.Authoring.ScriptableObjects.Inventory.Items;
             using GameMeanMachine.Unity.BackPack.Authoring.Behaviours.Inventory.ManagementStrategies.SpatialStrategies;
             using GameMeanMachine.Unity.BackPack.Authoring.Behaviours.Inventory.ManagementStrategies.RenderingStrategies;
@@ -50,7 +50,7 @@ namespace GameMeanMachine.Unity.WindRose.BackPack
                             ///   Just a container for <see cref="RenderingListener"/> interfaces. 
                             /// </summary>
                             [Serializable]
-                            public class RenderingListenerContainer : IUnifiedContainer<RenderingListener> { }
+                            public class RenderingListenerContainer : Interfaced<RenderingListener> { }
 
                             /// <summary>
                             ///   The listener chosen as the main one. It is the one that will receive
@@ -143,7 +143,7 @@ namespace GameMeanMachine.Unity.WindRose.BackPack
                                 int index = ArrayUtility.IndexOf(listeners, mainListenerObject.objectReferenceValue as MonoBehaviour);
                                 index = EditorGUILayout.Popup(new GUIContent("Main Listener"), index, listenerNames);
                                 mainListenerObject.objectReferenceValue = index >= 0 ? (listeners[index]) : null;
-                                mainListenerType.stringValue = index >= 0 ? IUnifiedContainerBase.ConstructResolvedName(listeners[index].GetType()) : "";
+                                mainListenerType.stringValue = index >= 0 ? Parent.FullConcreteTypeName(listeners[index].GetType()) : "";
 
                                 serializedObject.ApplyModifiedProperties();
                             }
