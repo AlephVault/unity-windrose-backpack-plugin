@@ -1,8 +1,8 @@
 ﻿using UnityEngine;
-using GameMeanMachine.Unity.BackPack.Authoring.Behaviours.UI.Inventory.Basic;
-using GameMeanMachine.Unity.BackPack.Authoring.Behaviours.Inventory.Standard;
+using AlephVault.Unity.BackPack.Authoring.Behaviours.UI.Inventory.Basic;
+using AlephVault.Unity.BackPack.Authoring.Behaviours.Inventory.Standard;
 
-namespace GameMeanMachine.Unity.WindRose.BackPack
+namespace AlephVault.Unity.WindRose.BackPack
 {
     namespace Authoring
     {

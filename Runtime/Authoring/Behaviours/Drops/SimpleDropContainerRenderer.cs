@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Rendering;
 
-namespace GameMeanMachine.Unity.WindRose.BackPack
+namespace AlephVault.Unity.WindRose.BackPack
 {
     namespace Authoring
     {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using AlephVault.Unity.Support.Utils;
 
-namespace GameMeanMachine.Unity.WindRose.BackPack
+namespace AlephVault.Unity.WindRose.BackPack
 {
     namespace Authoring
     {
@@ -16,8 +16,8 @@ namespace GameMeanMachine.Unity.WindRose.BackPack
                     namespace Drop
                     {
                         using AlephVault.Unity.Layout.Utils;
-                        using GameMeanMachine.Unity.BackPack.Authoring.Behaviours.Inventory.ManagementStrategies.PositioningStrategies;
-                        using GameMeanMachine.Unity.WindRose.Authoring.Behaviours.World;
+                        using AlephVault.Unity.BackPack.Authoring.Behaviours.Inventory.ManagementStrategies.PositioningStrategies;
+                        using AlephVault.Unity.WindRose.Authoring.Behaviours.World;
 
                         /// <summary>
                         ///   This class validates and iterates position based on the map's dimensions.

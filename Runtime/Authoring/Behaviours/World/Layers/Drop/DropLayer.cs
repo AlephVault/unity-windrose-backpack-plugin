@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace GameMeanMachine.Unity.WindRose.BackPack
+namespace AlephVault.Unity.WindRose.BackPack
 {
     namespace Authoring
     {
@@ -16,8 +16,8 @@ namespace GameMeanMachine.Unity.WindRose.BackPack
                     namespace Drop
                     {
                         using WindRose.Authoring.Behaviours.World.Layers;
-                        using GameMeanMachine.Unity.BackPack.Types.Inventory.Stacks;
-                        using GameMeanMachine.Unity.BackPack.Authoring.Behaviours.Inventory;
+                        using AlephVault.Unity.BackPack.Types.Inventory.Stacks;
+                        using AlephVault.Unity.BackPack.Authoring.Behaviours.Inventory;
                         using System.Linq;
 
                         /// <summary>
@@ -119,7 +119,7 @@ namespace GameMeanMachine.Unity.WindRose.BackPack
                             /// <summary>
                             ///   Convenience method. See <see cref="InventoryManagementStrategyHolder.FindAll(object, ScriptableObjects.Inventory.Items.Item, bool)"/>.
                             /// </summary>
-                            public IEnumerable<Stack> FindAll(Vector2Int containerPosition, GameMeanMachine.Unity.BackPack.Authoring.ScriptableObjects.Inventory.Items.Item item, bool reverse = false)
+                            public IEnumerable<Stack> FindAll(Vector2Int containerPosition, AlephVault.Unity.BackPack.Authoring.ScriptableObjects.Inventory.Items.Item item, bool reverse = false)
                             {
                                 return inventoryHolder.FindAll(containerPosition, item, reverse);
                             }
@@ -151,7 +151,7 @@ namespace GameMeanMachine.Unity.WindRose.BackPack
                             /// <summary>
                             ///   Convenience method. See <see cref="InventoryManagementStrategyHolder.FindOne(object, ScriptableObjects.Inventory.Items.Item, bool)"/>.
                             /// </summary>
-                            public Stack FindOne(Vector2Int containerPosition, GameMeanMachine.Unity.BackPack.Authoring.ScriptableObjects.Inventory.Items.Item item, bool reverse = false)
+                            public Stack FindOne(Vector2Int containerPosition, AlephVault.Unity.BackPack.Authoring.ScriptableObjects.Inventory.Items.Item item, bool reverse = false)
                             {
                                 return inventoryHolder.FindOne(containerPosition, item, reverse);
                             }
@@ -257,7 +257,7 @@ namespace GameMeanMachine.Unity.WindRose.BackPack
                             /// <summary>
                             ///   Convenience method. See <see cref="InventoryManagementStrategyHolder.Import(Types.Inventory.SerializedInventory)"/>.
                             /// </summary>
-                            public void Import(GameMeanMachine.Unity.BackPack.Types.Inventory.SerializedInventory serializedInventory)
+                            public void Import(AlephVault.Unity.BackPack.Types.Inventory.SerializedInventory serializedInventory)
                             {
                                 inventoryHolder.Import(serializedInventory);
                             }
@@ -265,7 +265,7 @@ namespace GameMeanMachine.Unity.WindRose.BackPack
                             /// <summary>
                             ///   Convenience method. See <see cref="InventoryManagementStrategyHolder.Export"/>.
                             /// </summary>
-                            public GameMeanMachine.Unity.BackPack.Types.Inventory.SerializedInventory Export()
+                            public AlephVault.Unity.BackPack.Types.Inventory.SerializedInventory Export()
                             {
                                 return inventoryHolder.Export();
                             }

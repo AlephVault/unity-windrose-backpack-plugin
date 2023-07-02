@@ -4,7 +4,7 @@ using AlephVault.Unity.Support.Authoring.Behaviours;
 using UnityEngine;
 
 
-namespace GameMeanMachine.Unity.WindRose.BackPack
+namespace AlephVault.Unity.WindRose.BackPack
 {
     namespace Authoring
     {
@@ -16,9 +16,9 @@ namespace GameMeanMachine.Unity.WindRose.BackPack
                 {
                     namespace StandardBag
                     {
-                        using GameMeanMachine.Unity.BackPack.Authoring.Behaviours.UI.Inventory.Basic;
-                        using GameMeanMachine.Unity.BackPack.Authoring.Behaviours.Inventory.Standard;
-                        using GameMeanMachine.Unity.BackPack.Types.Inventory.Stacks;
+                        using AlephVault.Unity.BackPack.Authoring.Behaviours.UI.Inventory.Basic;
+                        using AlephVault.Unity.BackPack.Authoring.Behaviours.Inventory.Standard;
+                        using AlephVault.Unity.BackPack.Types.Inventory.Stacks;
                         using Entities.Objects.Bags;
 
                         /// <summary>

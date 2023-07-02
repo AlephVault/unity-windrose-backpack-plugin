@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEditor;
 #endif
 
-namespace GameMeanMachine.Unity.WindRose.BackPack
+namespace AlephVault.Unity.WindRose.BackPack
 {
     namespace Authoring
     {
@@ -14,9 +14,9 @@ namespace GameMeanMachine.Unity.WindRose.BackPack
             using Drops;
             using AlephVault.Unity.Support.Generic.Authoring.Types;
             using AlephVault.Unity.Support.Generic.Authoring.Types.InterfacedCore;
-            using GameMeanMachine.Unity.BackPack.Authoring.ScriptableObjects.Inventory.Items;
-            using GameMeanMachine.Unity.BackPack.Authoring.Behaviours.Inventory.ManagementStrategies.SpatialStrategies;
-            using GameMeanMachine.Unity.BackPack.Authoring.Behaviours.Inventory.ManagementStrategies.RenderingStrategies;
+            using AlephVault.Unity.BackPack.Authoring.ScriptableObjects.Inventory.Items;
+            using AlephVault.Unity.BackPack.Authoring.Behaviours.Inventory.ManagementStrategies.SpatialStrategies;
+            using AlephVault.Unity.BackPack.Authoring.Behaviours.Inventory.ManagementStrategies.RenderingStrategies;
 
             namespace World
             {

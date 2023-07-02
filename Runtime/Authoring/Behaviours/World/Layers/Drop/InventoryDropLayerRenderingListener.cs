@@ -1,16 +1,16 @@
 ﻿using System;
 using UnityEngine;
 
-namespace GameMeanMachine.Unity.WindRose.BackPack
+namespace AlephVault.Unity.WindRose.BackPack
 {
     namespace Authoring
     {
         namespace Behaviours
         {
             using Drops;
-            using GameMeanMachine.Unity.BackPack.Authoring.ScriptableObjects.Inventory.Items;
-            using GameMeanMachine.Unity.BackPack.Authoring.ScriptableObjects.Inventory.Items.RenderingStrategies;
-            using GameMeanMachine.Unity.WindRose.Authoring.Behaviours.World;
+            using AlephVault.Unity.BackPack.Authoring.ScriptableObjects.Inventory.Items;
+            using AlephVault.Unity.BackPack.Authoring.ScriptableObjects.Inventory.Items.RenderingStrategies;
+            using AlephVault.Unity.WindRose.Authoring.Behaviours.World;
 
             namespace World
             {

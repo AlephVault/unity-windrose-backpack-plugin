@@ -1,12 +1,12 @@
 {
-    "name": "GameMeanMachine.Unity.WindRose.BackPack.Editor",
+    "name": "AlephVault.Unity.WindRose.BackPack.Editor",
     "references": [
-        "GameMeanMachine.Unity.WindRose.BackPack.Runtime",
+        "AlephVault.Unity.WindRose.BackPack.Runtime",
         "AlephVault.Unity.Support.Runtime",
         "AlephVault.Unity.MenuActions.Editor",
-        "GameMeanMachine.Unity.BackPack.Runtime",
+        "AlephVault.Unity.BackPack.Runtime",
         "AlephVault.Unity.Layout.Runtime",
-        "GameMeanMachine.Unity.WindRose.Runtime"
+        "AlephVault.Unity.WindRose.Runtime"
     ],
     "optionalUnityReferences": [],
     "includePlatforms": [

@@ -1,7 +1,7 @@
 {
-  "name": "com.gamemeanmachine.unity.windrose-backpack",
+  "name": "com.alephvault.unity.windrose-backpack",
   "version": "0.0.1",
-  "displayName": "Game Mean Machine - Unity - WindRose/BackPack integration",
+  "displayName": "Aleph Vault - Unity - WindRose/BackPack integration",
   "description": "Allows the developer to connect BackPack into WindRose (e.g. by prividing a \"drop layer\", commonly used in online orthogonal RPGs like Argentum Online or Tibia Online).",
   "unity": "2018.1",
   "dependencies": {
@@ -9,12 +9,12 @@
     "com.alephvault.unity.support.generic": "0.0.1",
     "com.alephvault.unity.layout": "0.0.1",
     "com.alephvault.unity.menuactions": "0.0.1",
-    "com.gamemeanmachine.unity.windrose": "0.0.1",
-    "com.gamemeanmachine.unity.backpack": "0.0.1"
+    "com.alephvault.unity.windrose": "0.0.1",
+    "com.alephvault.unity.backpack": "0.0.1"
   },
   "author": {
-    "name": "Game Mean Machine",
-    "email": "info@gamemeanmachine.com",
-    "url": "http://www.gamemeanmachine.com"
+    "name": "Aleph Vault",
+    "email": "info@alephvault.com",
+    "url": "http://www.alephvault.com"
   }
 }

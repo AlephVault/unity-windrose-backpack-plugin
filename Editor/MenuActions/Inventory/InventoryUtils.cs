@@ -8,16 +8,16 @@ using UnityEditor;
 using AlephVault.Unity.Support.Utils;
 using AlephVault.Unity.MenuActions.Utils;
 
-namespace GameMeanMachine.Unity.WindRose.BackPack
+namespace AlephVault.Unity.WindRose.BackPack
 {
     namespace MenuActions
     {
         namespace Inventory
         {
             using Authoring.Behaviours.Drops;
-            using GameMeanMachine.Unity.BackPack.Authoring.Behaviours.Inventory.ManagementStrategies.UsageStrategies;
-			using GameMeanMachine.Unity.BackPack.Authoring.Behaviours.Inventory.ManagementStrategies.SpatialStrategies;
-			using GameMeanMachine.Unity.BackPack.Authoring.Behaviours.Inventory;
+            using AlephVault.Unity.BackPack.Authoring.Behaviours.Inventory.ManagementStrategies.UsageStrategies;
+			using AlephVault.Unity.BackPack.Authoring.Behaviours.Inventory.ManagementStrategies.SpatialStrategies;
+			using AlephVault.Unity.BackPack.Authoring.Behaviours.Inventory;
 			using Authoring.Behaviours.World.Layers.Drop;
 
             /// <summary>

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace GameMeanMachine.Unity.WindRose.BackPack
+namespace AlephVault.Unity.WindRose.BackPack
 {
     namespace Authoring
     {
@@ -16,8 +16,8 @@ namespace GameMeanMachine.Unity.WindRose.BackPack
                     {
                         using WindRose.Authoring.Behaviours.Entities.Objects;
                         using World.Layers.Drop;
-                        using GameMeanMachine.Unity.BackPack.Types.Inventory.Stacks;
-                        using GameMeanMachine.Unity.BackPack.Authoring.Behaviours.Inventory.Standard;
+                        using AlephVault.Unity.BackPack.Types.Inventory.Stacks;
+                        using AlephVault.Unity.BackPack.Authoring.Behaviours.Inventory.Standard;
 
                         /// <summary>
                         ///   Bags are single inventories that belong to a map object.
